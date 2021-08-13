@@ -86,7 +86,7 @@
 					}
 				},
 				"damage": {
-					"desc": "Нанести :value: урон.",
+					"desc": "Нанести :value:.",
 					"format": {
 						"singular": ":value: урона",
 						"plural": ":value: урона"
