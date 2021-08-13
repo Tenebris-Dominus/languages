@@ -10,21 +10,21 @@
 					"stats": {
 						"accomplished": "Выполнено",
 						"discarded": "Отменено",
-						"rewarded": "Вознагражден",
+						"rewarded": "Вознаграждение",
 						"nextRoll": "Следующие миссии"
 					},
 					"card": {
 						"contextMenu": {
-							"watch": "Следить за миссией",
-							"unwatch": "Выйти из просмотра",
-							"discard": "Отмена миссии"
+							"watch": "Отслеживать миссию",
+							"unwatch": "Убрать из отслеживания",
+							"discard": "Отклонить миссию"
 						},
 						"statusTypes": {
-							"accomplished": "ВЫПОЛНЕНО",
-							"discarded": "ОТКЛОНЕНО",
-							"system": "УДАЛЕНО СИСТЕМОЙ"
+							"accomplished": "ВЫПОЛНЕНА",
+							"discarded": "ОТКЛОНЕНА",
+							"system": "УДАЛЕНА СИСТЕМОЙ"
 						},
-						"missed": "Пропущенно"
+						"missed": "Пропущена"
 					}
 				},
 				"leaderboard": {
@@ -32,12 +32,12 @@
 					"stats": {
 						"accomplished": "Всего выполнено",
 						"discarded": "Всего отменено",
-						"rewarded": "Всего вознаграждено"
+						"rewarded": "Всего вознаграждений"
 					},
 					"selection": {
 						"accomplished": "Выполнено",
 						"discarded": "Отмненено",
-						"rewarded": "Вознаграждено"
+						"rewarded": "Вознаграждение"
 					},
 					"player": {
 						"contextMenu": {
@@ -47,21 +47,21 @@
 							"openProfile": "Открыть профиль"
 						},
 						"value": {
-							"singular": ":count: миссии",
-							"plural": ":count: миссий"
+							"singular": ":count: миссия",
+							"plural": ":count: миссии"
 						}
 					}
 				},
 				"settings": {
 					"name": "Настройки",
 					"options": {
-						"enableMissionWatching": "Включить отслеживание мисии",
+						"enableMissionWatching": "Включить отслеживание миссий",
 						"autoWatchNewMissions": "Автоматически отслеживать новую миссию",
-						"onlyShowWhileHoldingTab": "Only show panel while holding down TAB",
-						"panelX": "Позиция панели по Х оси",
-						"panelY": "Позиция панели по Y оси",
-						"enablePopup": "Включить \"Миссия выполнена!\" уведомление",
-						"popupStaytime": "Время действия уведомления (секунд)"
+						"onlyShowWhileHoldingTab": "Показывать панельтолько когда зажата клавиша TAB",
+						"panelX": "Позиция панели по оси Х",
+						"panelY": "Позиция панели по оси Y",
+						"enablePopup": "Включить уведомление \"Миссия выполнена!\"",
+						"popupStaytime": "Время действия уведомления (в секундах)"
 					}
 				}
 			},
@@ -70,37 +70,37 @@
 		},
 		"chatMessages": {
 			"active": {
-				"singular": "У вас :value: активных миссий, проверьте это, используя :cmd:.",
-				"plural": "У вас :value: активных миссий, проверьте это, используя :cmd:."
+				"singular": "У вас :value: активная миссия, проверьте её, используя :cmd:.",
+				"plural": "У вас :value: активных миссии, проверьте их, используя :cmd:."
 			},
 			"newRoll": "Генерация новых миссий!",
-			"newMission": "Вам была назначена новая миссия, проверьте ее, используя :cmd:."
+			"newMission": "Вам была назначена новая миссия, проверьте её, используя :cmd:."
 		},
 		"defaultMissions": {
 			"all": {
 				"kill": {
-					"desc": "Убийства :value:.",
+					"desc": "Убить :value:.",
 					"format": {
-						"singular": ":value: игрок",
+						"singular": ":value: игрока",
 						"plural": ":value: игроков"
 					}
 				},
 				"damage": {
-					"desc": "Нанесено :value: урон.",
+					"desc": "Нанести :value: урон.",
 					"format": {
-						"singular": ":value: HP",
-						"plural": ":value: HP"
+						"singular": ":value: урона",
+						"plural": ":value: урона"
 					}
 				},
 				"travel": {
-					"desc": "Пройдите дистанцию :value:.",
+					"desc": "Пройти дистанцию :value:.",
 					"format": {
 						"singular": ":value: метр",
 						"plural": ":value: метров"
 					}
 				},
 				"timeAlive": {
-					"desc": "Оставайтесь в живых около :value:.",
+					"desc": "Оставаться в живых около :value:.",
 					"format": {
 						"singular": ":value: минуты",
 						"plural": ":value: минут"
@@ -209,7 +209,7 @@
 					"desc": "Купить :value:.",
 					"format": {
 						"singular": ":value: дверь",
-						"plural": ":value: двери"
+						"plural": ":value: дверей"
 					}
 				},
 				"buyEntity": {
@@ -220,24 +220,24 @@
 					}
 				},
 				"buyShipment": {
-					"desc": "Купить :value:.",
+					"desc": "Купить коробки :value:.",
 					"format": {
-						"singular": ":value: груз",
-						"plural": ":value: груз"
+						"singular": ":value: раз",
+						"plural": ":value: раз"
 					}
 				},
 				"buyFood": {
-					"desc": "",
+					"desc": "Купить еду :value:",
 					"format": {
-						"singular": "",
-						"plural": ""
+						"singular": ":value: раз",
+						"plural": ":value: раз"
 					}
 				},
 				"buyWeapon": {
-					"desc": "Купить :value:.",
+					"desc": "Купить оружие :value:.",
 					"format": {
-						"singular": ":value: оружие",
-						"plural": ":value: оружия"
+						"singular": ":value: раз",
+						"plural": ":value: раз"
 					}
 				},
 				"lockpick": {
@@ -248,7 +248,7 @@
 					}
 				},
 				"changeJob": {
-					"desc": "Сменить прфессию :value:.",
+					"desc": "Сменить работу :value:.",
 					"format": {
 						"singular": ":value: раз",
 						"plural": ":value: раз"
@@ -264,8 +264,8 @@
 				"salary": {
 					"desc": "Заработать :value:.",
 					"format": {
-						"singular": ":value: зарплату",
-						"plural": ":value: зарплат"
+						"singular": ":value: зарплаты",
+						"plural": ":value: зарплаты"
 					}
 				}
 			},
@@ -279,7 +279,7 @@
 						}
 					},
 					"hologram": {
-						"desc": "Используйте эмоции голограммы :value:.",
+						"desc": "Использовать голографическую эмоцию :value:.",
 						"format": {
 							"singular": ":value: раз",
 							"plural": ":value: раз"
@@ -359,7 +359,7 @@
 						}
 					},
 					"cure": {
-						"desc": "Вылечитесь от инфекции :value:.",
+						"desc": "Вылечиться от инфекции :value:.",
 						"format": {
 							"singular": ":value: раз",
 							"plural": ":value: раз"
