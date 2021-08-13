@@ -399,7 +399,7 @@
 						"desc": "Отправить :value:.",
 						"format": {
 							"singular": ":value: письмо",
-							"plural": ":value: письм"
+							"plural": ":value: писем"
 						}
 					}
 				},
@@ -425,6 +425,15 @@
 							"plural": ""
 						}
 					}
+				},
+				"spresents": {
+					"open": {
+						"desc": "Открыть :value:.",
+						"format": {
+							"singular": ":value: подарок",
+							"plural": ":value: подарка"
+						}
+				       }
 				}
 			}
 		}
