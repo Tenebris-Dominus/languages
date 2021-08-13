@@ -31,12 +31,12 @@
 					"name": "Таблица лидеров",
 					"stats": {
 						"accomplished": "Всего выполнено",
-						"discarded": "Всего отменено",
+						"discarded": "Всего оклонено",
 						"rewarded": "Всего вознаграждений"
 					},
 					"selection": {
 						"accomplished": "Выполнено",
-						"discarded": "Отмненено",
+						"discarded": "Отклонено",
 						"rewarded": "Вознаграждение"
 					},
 					"player": {
